@@ -1,0 +1,12 @@
+@import url(Styles.css);
+
+/* fr: fraciones en la grid */
+/* repeat: para no repetir un mismo valor varias veces, el primer numero es el numero de columnas el segundo el numero de fracciones */
+.grid-explicita {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 200px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 200px repeat(6, 1fr);
+}
