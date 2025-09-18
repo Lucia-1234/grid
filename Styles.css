@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: d2d2d2;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 80%;
+  height: 80vh;
+  background-color: #222;
+  margin: 0 auto;
+}
+
+.item{
+  background-color: #666;
+  border: solid 1px #999;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
