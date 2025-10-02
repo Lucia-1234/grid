@@ -1,0 +1,83 @@
+@import url(Styles.css);
+
+.Cara_feliz {
+  display: grid;
+  grid-template-rows: repeat(20, 1fr);
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-areas: ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . derecho derecho . . . . . . . . izquierdo izquierdo . . . ."
+    ". . . . derecho derecho . . . . . . . . izquierdo izquierdo . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . nariz nariz . . . . . . . . ."
+    ". . . . . . . . . nariz nariz . . . . . . . . ."
+    ". . . boca1 boca1 . . . . . . . . . . boca1-1 boca1-1 . . ."
+    ". . . . boca2 boca2 . . . . . . . . boca2-2 boca2-2 . . . ."
+    ". . . . . boca3 boca3 . . . . . . boca3-3 boca3-3 . . . . ."
+    ". . . . . . boca4 boca4 boca4 boca4 boca4 boca4 boca4 boca4 . . . . . ."
+    ". . . . . . . . . lengua lengua . . . . . . . . ."
+    ". . . . . . . . . lengua lengua . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . .";
+}
+
+.ojo_derecho {
+  grid-area: derecho;
+  background-color: indigo;
+}
+
+.ojo_izquierdo {
+  grid-area: izquierdo;
+  background-color: indigo;
+}
+
+.nariz {
+  grid-area: nariz;
+  background-color: indigo;
+}
+
+.boca1 {
+  grid-area: boca1;
+  background-color: indigo;
+}
+
+.boca1-1 {
+  grid-area: boca1-1;
+  background-color: indigo;
+}
+
+.boca2 {
+  grid-area: boca2;
+  background-color: indigo;
+}
+
+.boca2-2 {
+  grid-area: boca2-2;
+  background-color: indigo;
+}
+
+.boca3 {
+  grid-area: boca3;
+  background-color: indigo;
+}
+
+.boca3-3 {
+  grid-area: boca3-3;
+  background-color: indigo;
+}
+
+.boca4 {
+  grid-area: boca4;
+  background-color: indigo;
+}
+
+.lengua{
+  grid-area: lengua;
+  background-color: red;
+}
