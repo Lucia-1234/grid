@@ -1,0 +1,34 @@
+@import url(Styles.css);
+
+.grid-nombres-lineas {
+  display: grid;
+
+  /* se crea una grid de 3*3 */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  /* nombres de las columnas */
+  grid-template-columns: [linea-colum-1] 1fr [linea-colum-2] 1fr [linea-colum-3] 1fr [linea-colum-4] 1fr [linea-colum-5] 1fr;
+  /* nombre de las filas */
+  grid-template-rows: [linea-row-1] 1fr [linea-row-2] 1fr [linea-row-3] 1fr [linea-row-4] 1fr [linea-row-5] 1fr;
+
+}
+
+/* Se le da color rojo al tercer hijo del contenedor padre */
+/* SE define hasta donde se aplica el color de fondo, desde la linea 1 hasta la linea 3 y desde la columna 1 hasta la columna 3""  */
+.item:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  background-color: brown;
+  grid-row: linea-row-1 / linea-row-5;
+  grid-column: linea-colum-2 / linea-colum-4;
+}
+
+.item:nth-child(6){
+  background-color: steelblue;
+  grid-column: linea-column-4 ;
+  /* grid-row: ; */
+}
