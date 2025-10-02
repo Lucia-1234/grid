@@ -1,0 +1,52 @@
+@import url(Styles.css);
+
+.grid-con-areas {
+  display: grid;
+  grid-template-rows: repeat(14, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "header header header header header header header header header header header header"
+    "header header header header header header header header header header header header"
+    "formulario formulario formulario formulario . morado . . . . . ."
+    "formulario formulario formulario formulario . morado . . . . . ."
+    "formulario formulario formulario formulario . morado . . . . . ."
+    "formulario formulario formulario formulario . morado . . . . . ."
+    "azul azul azul azul azul morado verde verde . . . ."
+    "azul azul azul azul azul morado verde verde . . . ."
+    "azul azul azul azul azul morado verde verde . . . ."
+    "azul azul azul azul azul morado verde verde . . . ."
+    "azul azul azul azul azul morado . . rojo rojo rojo rojo"
+    "azul azul azul azul azul morado . . rojo rojo rojo rojo"
+    "azul azul azul azul azul morado . . rojo rojo rojo rojo"
+    "azul azul azul azul azul morado . . rojo rojo rojo rojo"
+  ;
+}
+
+.header {
+  grid-area: header;
+  background-color: #fff;
+}
+
+.formulario {
+  grid-area: formulario;
+  background-color: yellow;
+}
+
+.azul {
+  grid-area: azul;
+  background-color: steelblue;
+}
+
+.rojo {
+  grid-area: rojo;
+  background-color: brown;
+}
+
+.verde {
+  grid-area: verde;
+  background-color: green;
+}
+
+.morado {
+  grid-area: morado;
+  background-color: blueviolet;
+}
