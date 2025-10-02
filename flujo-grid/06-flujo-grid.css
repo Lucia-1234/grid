@@ -1,0 +1,16 @@
+@import url(Styles.css);
+
+.grid-fujo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 150px);
+
+  /* el contenido inplicito de acomoda en filas */
+  grid-auto-flow: row;
+  grid-auto-rows: 45px;
+
+  /* el contenido inplicito se acomoda en columnas */
+  grid-auto-flow: column;
+  grid-auto-columns: 450px;
+
+}
