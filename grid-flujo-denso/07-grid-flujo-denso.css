@@ -1,0 +1,15 @@
+@import url(Styles.css);
+
+.grid-denso{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  grid-auto-flow: row dense;
+  
+}
+
+.item:nth-child(9){
+  background-color: brown;
+  grid-row: span 3;
+  grid-column: span 3;
+}
