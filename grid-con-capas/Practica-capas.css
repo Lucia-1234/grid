@@ -1,0 +1,32 @@
+@import url(Styles.css);
+
+.capas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+}
+
+.item:nth-child(n+1):nth-child(-n+2),
+:nth-child(n+5):nth-child(-n+6) {
+  background-color: chartreuse;
+  border: none;
+}
+
+.item:nth-child(n+3):nth-child(-n+4),
+:nth-child(n+7):nth-child(-n+8) {
+  background-color: crimson;
+  border: none;
+}
+
+.item:nth-child(n+9):nth-child(-n+10),
+:nth-child(n+13):nth-child(-n+14) {
+  background-color: darkblue;
+  border: none;
+}
+
+.item:nth-child(n+11):nth-child(-n+12),
+:nth-child(n+15):nth-child(-n+16) {
+  background-color: cornsilk;
+  border: none;
+}
