@@ -1,0 +1,33 @@
+@import url(Styles.css);
+
+.grid-orden {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.item:nth-child(1) {
+  background-color: seagreen;
+  order: 0;
+  order: 5;
+}
+
+.item:nth-child(2) {
+  background-color: mediumseagreen;
+  order: 4;
+}
+
+.item:nth-child(3) {
+  background-color: lightseagreen;
+  order: 2;
+}
+
+.item:nth-child(4) {
+  background-color: mediumturquoise;
+  order: 3;
+}
+
+.item:nth-child(5) {
+  background-color: darkcyan;
+  order: 1;
+}
