@@ -1,0 +1,12 @@
+@import url(Styles.css);
+
+.grid-maximo-minimo{
+  display: grid;
+
+  /* el primer valor es el minimo el segundo valor es el maximo */
+  grid-template-columns: repeat(4, minmax(100px, 200px));
+
+  grid-template-columns: repeat(4, minmax(min-content, 200px));
+
+  grid-template-columns: repeat(4, minmax(100px, max-content));
+}
